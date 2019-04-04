@@ -14,4 +14,8 @@ public interface CarComponent {
     String getName();
 
     String getInfo();
+
+    CarComponent getParent();
+
+    void setParent(CarComponent component);
 }
